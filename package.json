@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "get-titled-players": "ts-node src/get-titled-players.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/seanwessmith/chesscom-cheaters#readme",
   "dependencies": {
+    "@types/node": "^18.8.2",
     "axios": "^1.0.0",
     "typescript": "^4.8.4"
   }
