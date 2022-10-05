@@ -13,18 +13,21 @@ const chessTitles = [
   "CM",
   "WCM",
 ];
-export const getPlayers = async () => {
-  let titledPlayers: string[] = [];
+export const getTitledPlayerUsernames = async () => {
+  let titledPlayerUsernames: string[] = [];
 
-  // iterate over all chess titles to get all titled plays and save to titledPlayers array
+  // iterate over all chess titles to get all titled plays and save to titledPlayerUsernames array
   for (const title of chessTitles) {
     const titlesRes = await axios
       .get(`https://api.chess.com/pub/titled/${title}`)
       .then((d) => d.data.players);
-    titledPlayers = [...titledPlayers, ...titlesRes];
+    titledPlayerUsernames = [...titledPlayerUsernames, ...titlesRes];
   }
 
   // save titled players to file
-  fs.writeFileSync("./data/titledPlayers.json", JSON.stringify(titledPlayers.flat()));
+  fs.writeFileSync(
+    "src/data/titledPlayerUsernames.json",
+    JSON.stringify(titledPlayerUsernames.flat())
+  );
 };
-getPlayers();
+getTitledPlayerUsernames();
