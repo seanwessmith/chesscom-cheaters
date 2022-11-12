@@ -9,7 +9,7 @@
 
 ## List - Indicates rank matched at time the left Chess.com
 https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
-[
+```[
   {
     "rank": "2651",
     "count": 3,
@@ -1945,3 +1945,4 @@ https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
     }
   }
 ]
+```
