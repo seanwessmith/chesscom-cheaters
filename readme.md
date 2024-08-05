@@ -7,7 +7,9 @@
 - link: <https://www.chess.com/news/view/published-data-api#pubapi-endpoint-titled/>
 - API conversation: <https://www.chess.com/clubs/forum/view/guide-unofficial-api-documentation/>
 
-## List - Indicates rank matched at time the left Chess.com
+## List - Indicates rank matched at the time they left Chess.com
+- According to Chess.com's PDF on Google Drive, one of the usernames per rank object is a cheater :-O
+
 https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
 ```[
   {
