@@ -15,7 +15,7 @@ The user data in this repository is derived from the Chess.com API. For more inf
 - [Chess.com Unofficial API Documentation](https://www.chess.com/news/view/published-data-api#pubapi-endpoint-titled)
 - [Chess.com API Forum Discussion](https://www.chess.com/clubs/forum/view/guide-unofficial-api-documentation)
 
-## 📝 List Explanation
+## 📝 Results
 
 The list provided in this repository consists of user objects categorized by their rank at the time they left Chess.com. The format includes:
 
@@ -25,7 +25,7 @@ The list provided in this repository consists of user objects categorized by the
 
 According to the Hans Niemann Report, one of the usernames listed per rank object is flagged as a potential cheater.
 
-### Example Data
+### Results
 
 https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
 ```[
