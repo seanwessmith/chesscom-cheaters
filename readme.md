@@ -1,14 +1,31 @@
-# Chess.com Cheaters
+# Chess.com Cheaters Detection
 
-- link: <https://drive.google.com/file/d/11IokKgTVSXdpYEzAuyViIleSZ_2wl0ag/view?usp=sharing/>
+This repository provides a list of users who have a probability of being cheaters, as indicated in Chess.com's **Hans Niemann Report**. The users listed are extracted based on their rank at the time they left Chess.com, and one of the usernames per rank object is suspected to be a cheater, according to Chess.com's analysis.
 
-## Chess.com Unofficial API
+## 📄 Hans Niemann Report
 
-- link: <https://www.chess.com/news/view/published-data-api#pubapi-endpoint-titled/>
-- API conversation: <https://www.chess.com/clubs/forum/view/guide-unofficial-api-documentation/>
+You can view the official Chess.com Hans Niemann Report, which forms the basis of this list, by following this link:
 
-## List - Indicates rank matched at the time they left Chess.com
-- According to Chess.com's PDF on Google Drive, one of the usernames per rank object is a cheater :-O
+[Hans Niemann Report - Chess.com PDF](https://drive.google.com/file/d/11IokKgTVSXdpYEzAuyViIleSZ_2wl0ag/view?usp=sharing)
+
+## 📊 Data Source: Chess.com Unofficial API
+
+The user data in this repository is derived from the Chess.com API. For more information on the API endpoints used to gather this data, refer to the links below:
+
+- [Chess.com Unofficial API Documentation](https://www.chess.com/news/view/published-data-api#pubapi-endpoint-titled)
+- [Chess.com API Forum Discussion](https://www.chess.com/clubs/forum/view/guide-unofficial-api-documentation)
+
+## 📝 List Explanation
+
+The list provided in this repository consists of user objects categorized by their rank at the time they left Chess.com. The format includes:
+
+- **Rank**: User's rank when they left the platform.
+- **Usernames**: A list of usernames associated with that rank, including their **last online** date.
+- **Double Users**: Any duplicate accounts, which are currently empty in this dataset.
+
+According to the Hans Niemann Report, one of the usernames listed per rank object is flagged as a potential cheater.
+
+### Example Data
 
 https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
 ```[
@@ -1948,3 +1965,11 @@ https://gist.github.com/seanwessmith/243c98236db8127cff48ca8cd04861d4
   }
 ]
 ```
+
+## Disclaimer
+
+This list is generated based on data from Chess.com's unofficial API and the Hans Niemann Report. It should not be taken as a definitive or official source of information regarding cheating on the platform.
+
+---
+
+Feel free to explore the data and contribute to the discussion!
